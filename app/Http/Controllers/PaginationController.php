@@ -9,7 +9,7 @@ class PaginationController extends Controller
 {
     //
     public function phantrang(){
-    	$data = Pagination::paginate(2);
+    	$data = Pagination::paginate(12);
     	return view('pages.home',['data'=>$data]);
     }
 }

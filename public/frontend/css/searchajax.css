@@ -1,0 +1,34 @@
+#name-search{
+	color : #6699ff;
+	height:70px;
+	font-style: italic;  
+	font-family:Courier New Courier;
+	margin-left: 5px;
+	border-bottom: solid 2px;
+	border-color: #F0F8FF;
+}
+#name-search:hover{
+	background-color: #6495ED;
+	color: white;
+	font-size: 20px;
+}
+#price-search{
+	float:left;
+	font-style: italic;  
+	font-family:Courier New Courier;
+	margin-left: 5px;
+}
+#img-search{
+	height:50px; 
+	width:50px; 
+	float:right;
+	margin-top: -15px;
+}
+div#search_result{
+	position: absolute; 
+	z-index: 1; 
+	top:40px; 
+	border: 2px; 
+	background-color: rgb(242, 242, 242); 
+	width: 400px;
+}

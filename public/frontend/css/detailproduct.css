@@ -1,0 +1,18 @@
+input.quanty{
+	position: absolute;
+	width: 50px;
+	top: 405px;
+	left: 50px;
+}
+
+a#detail-add-to-cart{
+	position: absolute;
+	top: 400px;
+	left: 120px;
+}
+
+div.sub > p{
+	text-align: left;
+	height: 50px;
+	padding-left: 20px;
+}

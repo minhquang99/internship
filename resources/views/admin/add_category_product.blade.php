@@ -7,17 +7,23 @@
                         <header class="panel-heading">
                             Thêm danh mục sản phẩm
                         </header>
+                        @if(isset($success))
+                        <span style="color: green; padding-left: 200px;">{{$success}}</span>
+                        @endif
                         <div class="panel-body">
                             <div class="position-center">
-                                <form role="form" action="{{URL::to('/save-category-product')}}" method="post">
+                                <form role="form" action="{{URL::to('/add-category-product')}}" method="post">
                                     {{ csrf_field() }}
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">Tên danh mục</label>
-                                    <input type="text" name="category_product_name" class="form-control" id="exampleInputEmail1" placeholder="Ten danh muc">
+                                    <input type="text" name="category_product_name" class="form-control" id="exampleInputEmail1" placeholder="Ten danh muc" required="">
+                                    @error('category_product_name')
+                                    <span style="color: red;">{{$message}}</span>
+                                    @enderror
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Mô tả</label>
-                                    <textarea class="form-control" name="category_product_des" id="exampleInputPassword1" placeholder="Mo ta"></textarea>
+                                    <textarea class="form-control" name="category_product_des" id="exampleInputPassword1" placeholder="Mo ta" required=""></textarea>
                                 </div>
                                 <div class="form-group">
                                     <label for="exampleInputPassword1">Hiển thị</label>

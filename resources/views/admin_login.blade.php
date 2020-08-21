@@ -23,6 +23,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </head>
 <body>
 <div class="log-w3">
+	<span style="color:red; font-size: 20px; padding-left: 600px; ">{{$fails}}</span>
 <div class="w3layouts-main">
 	<h2>Sign In Now</h2>
 		<form action="{{URL::to('/admin_dashboard')}}" method="post">
@@ -30,11 +31,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			<input type="text" class="ggg" name="admin_email" placeholder="E-MAIL" required="">
 			<input type="password" class="ggg" name="admin_password" placeholder="PASSWORD" required="">
 			<span><input type="checkbox" />Remember Me</span>
-			<h6><a href="#">Forgot Password?</a></h6>
+			
 				<div class="clearfix"></div>
 				<input type="submit" value="Đăng nhập" name="login">
 		</form>
-		<p>Don't Have an Account ?<a href="registration.html">Create an account</a></p>
+		<p>Are you forget password ?<a href="#">Reset Password</a></p>
 </div>
 </div>
 <script src="{{asset('public/backend/js/bootstrap.js')}}"></script>

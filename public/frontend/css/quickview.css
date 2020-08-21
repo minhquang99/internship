@@ -1,0 +1,46 @@
+#img-quickview {
+	height:500px; 
+	width:400px; 
+	position:fixed; 
+	left:20px; 
+	top:60px;
+}
+p.quick{ 
+	position:fixed;
+	left:450px;
+	font-size:20px;
+	font-style: italic;  
+	font-family:Courier New Courier;	
+}
+#name-pd{
+	top:100px
+}
+#name-cate{
+	top:150px
+}
+#name-brand{
+	top:200px
+}
+#name-price{
+	top:250px
+}
+#name-des{
+	top:300px
+}
+a#name-card{
+	position: fixed;
+	left: 450px;
+	top: 500px;
+}
+
+a#addtocart{
+	position: fixed;
+	bottom: 60px;
+	left: 570px;
+}
+input.quantyquick{
+	position: fixed;
+	width: 50px;
+	bottom: 90px;
+	left: 500px;
+}
