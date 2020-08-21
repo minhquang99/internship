@@ -33,7 +33,7 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="contactinfo">
-                            <h4>Laravel's Perfume Shop</h4>
+                            <h4>Laravel's Perfume</h4>
                         </div>
                     </div>
                     <div class="col-sm-6">
